@@ -1,0 +1,65 @@
+/* line 10, C:/Users/John/Desktop/Web Developing/baseball_stats/app/assets/stylesheets/team.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 14, C:/Users/John/Desktop/Web Developing/baseball_stats/app/assets/stylesheets/team.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: 'Helvetica', sans-serif;
+  color: #022933;
+  background-color: #022933;
+}
+
+/* line 22, C:/Users/John/Desktop/Web Developing/baseball_stats/app/assets/stylesheets/team.scss */
+p {
+  background: url("../images/4.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: table-cell;
+  vertical-align: bottom;
+  align: center;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+/* line 31, C:/Users/John/Desktop/Web Developing/baseball_stats/app/assets/stylesheets/team.scss */
+#income {
+  padding: 10px;
+  position: relative;
+  margin-left: 650px;
+}
+
+/* line 38, C:/Users/John/Desktop/Web Developing/baseball_stats/app/assets/stylesheets/team.scss */
+#team_year {
+  margin-left: 750px;
+}
+
+/* line 44, C:/Users/John/Desktop/Web Developing/baseball_stats/app/assets/stylesheets/team.scss */
+#teamnames {
+  margin-left: 20px;
+}
+
+/* line 48, C:/Users/John/Desktop/Web Developing/baseball_stats/app/assets/stylesheets/team.scss */
+#submit {
+  margin-left: 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

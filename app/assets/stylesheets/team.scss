@@ -1,0 +1,49 @@
+// Place all the styles related to the team controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "mixins";
+
+$offwhite:  #EEE8D6;
+$darkblue:  #022933;
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.8rem;
+	font-family: 'Helvetica', sans-serif;
+	color: $darkblue;
+	background-color: $darkblue;
+}
+p {
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 20px;
+	padding: 20px;
+}
+
+	#income {
+		@include backImage('4.jpg');
+		padding: 10px;
+		position: relative;
+		margin-left:  650px;
+	}
+
+
+	#team_year {
+		
+		margin-left: 750px;
+
+	}
+
+	#teamnames {
+		margin-left: 20px;
+	}
+
+	#submit {
+		margin-left: 20px;
+	}
